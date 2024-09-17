@@ -1,0 +1,32 @@
+body{
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header{background: linear-gradient(180deg,#c4b6fd,#93acfc);}
+
+
+.navbar-brand{color: #0a58ca !important;}
+.nav-link{font-weight: 500;}
+.btn-primary{background-color: #0a58ca !important; border: none;}
+.nav-link:hover{color: #0a58ca;}
+.btn-primary:hover{background-color: #257dfd !important;}
+.lead{font-weight: bold;}
+.techgear_2{padding-top: 60px;}
+.about_content{padding:80px  0 0 80px}
+.techgear_3{padding-top: 70px;}
+.card{box-shadow: 20px 20px 20px rgba(0,0,0,0.2);}
+.icons{height: 32px; width: 32px; margin-bottom: 16px; color: #0a58ca; background-color: #f2f2f2; padding: 6px;}
+.blue-bg{background-color: #0a58ca; color: #fff;}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{border: none !important; background-color: #0a58ca; color: white;}
+.nav-tabs{border: none !important;}
+.images{overflow: hidden; display: block;}
+.images img{transition: .5 all ease;}
+.images:hover img{transform: scale(1.15);}
+@media(max-width:991px)
+{
+    .about_content{padding: 30px 0 0 0;}
+}
